@@ -10,7 +10,7 @@ const appConfig = require('./config/app-config.json')
 
 var app = express()
 
-// Configure CORS for this service so our UI can make calls to us
+// Configure CORS for this service so our UI can make calls to us.
 var corsOptions = {
   origin: [appConfig.signoutUri]
 }
