@@ -2,6 +2,18 @@
   "name": "cognito-demo-service",
   "version": "0.0.0",
   "private": true,
+  "license": "MIT",
+  "description": "Example Express based REST API in Node.js for my medium.com article on using the AWS Cognito provided JWT tokens. Demonstrates downloading of the Cognito JWKS certificates and use of a JWT decoder to verify the claims in a JWT token, wrapped up in a reusable Express middleware function.",
+  "homepage": "https://medium.com/@arron.harden/aws-cognito-example-using-react-ui-and-node-js-rest-apis-part-2-react-ui-app-with-redux-6cc22610affe",  
+  "author": {
+    "name": "Arron Harden",
+    "email": "post@arronharden.com",
+    "url": "https://arronharden.com"
+  },
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/arronharden/cognito-demo-service"
+  },
   "scripts": {
     "start": "node ./bin/www"
   },
