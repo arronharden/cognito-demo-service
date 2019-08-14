@@ -1,4 +1,4 @@
-This application was created from the create express component, and demonstrates how to verify the JWT authentication tokens used by AWS Cognito in an express based node.js service. See https://medium.com/@arron.harden/aws-cognito-example-using-react-ui-and-node-js-rest-apis-part-3-jwt-secured-rest-apis-e56d336ce306 on medium.com for more information.
+This application was created from the create express component, and demonstrates how to verify the JWT authentication tokens used by AWS Cognito in an express based node.js service. See [my article](https://medium.com/@arron.harden/aws-cognito-example-using-react-ui-and-node-js-rest-apis-part-3-jwt-secured-rest-apis-e56d336ce306) on medium.com for more information.
 
 ## Running the application
 
@@ -17,3 +17,9 @@ and if successful you should see the following type of response:
 ```
 Successfully verified JWT token. Extracted information: {"sub":"1f0be62f-ffcd-49ca-b5a4-18f0bf62e0e6","token_use":"access","scope":["openid","profile","https://cognito-demo-api.arronharden.com/hello-world.all","email"],"username":"arron"}
 ```
+
+## React UI client
+The source for an example React UI application which invokes this REST API is contained in the repo at https://github.com/arronharden/cognito-demo-ui. A running instance of this React application is hosted at https://cognito-demo.arronharden.com.
+
+## Example
+A running instance of this REST API is hosted at https://cognito-demo-api.arronharden.com. 
