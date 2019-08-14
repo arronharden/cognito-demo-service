@@ -1,4 +1,4 @@
-This application was created from the create express component, and demonstrates how to verify the JWT authentication tokens used by AWS Cognito in an express based node.js service. See <TBD> on medium.com for more information.
+This application was created from the create express component, and demonstrates how to verify the JWT authentication tokens used by AWS Cognito in an express based node.js service. See https://medium.com/@arron.harden/aws-cognito-example-using-react-ui-and-node-js-rest-apis-part-3-jwt-secured-rest-apis-e56d336ce306 on medium.com for more information.
 
 ## Running the application
 
